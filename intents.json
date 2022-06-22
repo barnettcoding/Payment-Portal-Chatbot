@@ -1,0 +1,19 @@
+{"intents": [
+    {"tag":"greeting",
+    "utterances":["Hello", "Hi", "Hey", "What's Up?", "Sup", "Howdy", "Good Morning", "Good Afternoon", "Good Evening"],
+    "responses":["Hello, How can I help today?", "Greetings, What would you like to do today?", "How can I help you?", "Hi, How may I assist you?", "Hello, may I be of some assistance?"]},
+    {"tag":"pay bill",
+     "utterances": ["I would like to pay my bill", "I need to make a payment","Pay my bill", "Make a payment", "Can I pay my bill?", "I wanna pay on my medical bills", "Bill Pay"],
+     "responses": ["Okay, How much would you like to pay?", "Would you like to pay the entire balance, or just part?", "Which account would you like to pay on?", "Thank you. Please choose a payment method.", "I'm pulling up the payments screen now."]},
+    {"tag":"Get information",
+     "utterances": ["Can I see my balance?", "I'd like to see my balance", "I need to see my balance", "Balance", "Total Balance", "Balance, please", "Get my balance", "What do I owe?", "How much do I owe?", "What are my damages", "How much do I have to pay?", "Amount Due", "Total Amount due", "See my bill"],
+     "responses": ["Here is your total balance:", "Your total balance is: ", "Your balance of all acounts is: "]},
+    {"tag":"Make payment arrangements",
+     "utterances": ["I'd like to set up payment arrangements", "Make payment arrangements", "Schedule payments", "I can't pay this all now", "Pay a little at a time", "Pay little by little", "Make weekly payments", "Set up monthly payments", "set up a payment plan", "Get on a payment plan"],
+     "responses": ["Great! I will open the payment arrangement menu now", "Understood. Opening up the payment arrangement menu now.", "Here's the payment arrangement menu:", "Thank you. Give me a moment, while I open the payment arrangement menu for you."]},
+
+    {"tag":"Leave Chat",
+     "utterances": ["That's All", "never mind", "That's all I needed", "I'm finished", "go away", "That's it", "I'm done", "finish", "goodbye", "bye", "later"],
+     "responses": ["Thank you for using the chatbot. Have a nice day!", "It was a pleasure assisting you today. Take care!", "Have a wonderful day!", "Goodbye", "Thank you for choosing the chatbot today", "Have a good day, Ciao!", "See you next time!"]}
+    ]
+}
